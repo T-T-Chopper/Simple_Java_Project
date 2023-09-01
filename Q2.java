@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Soru2 {
+public class Q2 {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     System.out.print("Lutfen iki tane tam sayi giriniz: "); // Ilk istenen sekilde % kullanarak yapilan cozum.
