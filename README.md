@@ -1,21 +1,20 @@
-# Simple_Java_Project
-SORU 1 - Kullanıcıdan üç tane derse ait kredi ve not bilgisini (büyük harfler şeklinde A, B, C, D karakterlerinden biri) alan ve bu üç derse göre ağırlıklı not ortalamasını ekrana yazdıran kodu yazınız.
-Varsayımlar: Kullanıcının her zaman doğru veri girişi yaptığını varsayın. Kredi bilgisi her zaman tam sayı olarak verilecek. Not bilgisinde A değeri 4, B değeri 3, C değeri 2, D değeri 1 kabul edilecek. Bunları ASCII tablosundaki sayısal karşılıkları kullanarak elde edebilirsiniz.
+QUESTION 1 - Write the code that takes the credit and grade information of three courses from the user (one of the characters A, B, C, D in capital letters) and prints the weighted grade average of these three courses on the screen.
+Assumptions: Assume that the user always enters data correctly. Credit information will always be given as an integer. In the grade information, A value 4, B value 3, C value 2, D value 1 will be accepted. You can obtain them using their numerical equivalents in the ASCII table.
 
 
-SORU 2 - Kullanıcıdan iki tam sayı alan ve birinci sayının ikinci sayıya bölümünü ve bu bölümden kalanı ekrana yazdıran kodu yazınız. Bu kodu önce “%” operatörü kullanarak, daha sonra da bu operatörü kullanmadan yazın.
-Varsayımlar: Kullanıcının ikinci sayı (bölen) olarak 0 girmeyeceğini ve sayıların doğal sayılar olacağını varsayabilirsiniz.
+QUESTION 2 - Write the code that takes two integers from the user and prints the division of the first number by the second number and the remainder of this part to the screen. Write this code first using the "%" operator and then without using this operator.
+Assumptions: You can assume that the user will not enter 0 as the second number (divisor) and that the numbers will be natural numbers.
 
 
-SORU 3 - Santimetre cinsinden uzunluk bilgisini Amerikan ölçü birimine dönüştürüp bunu ekrana yazdırmak istiyoruz (feet and inches). Uzunluk tanımları şu şekilde verilmiştir:
-1 feet = 30.48 cm
+QUESTION 3 - We want to convert the length in centimeters to American units and print it on the screen (feet and inches). Length definitions are given as follows:
+1 foot = 30.48 cm
 1 inch = 2.54 cm
-1 feet = 12 inch
-Buna göre kullanıcıdan tam sayı olarak bir santimetre uzunluk bilgisi alan ve ekrana bunu feet ve inch cinsinden yazdıran kodu yazınız. Feet ve inch gösterimi Amerikan ölçü sisteminde sırasıyla tek tırnak ve çift tırnak şeklinde yapılır.
-Örnek:
-195 cm için feet ve inch hesabı:
-195 / 30.48 => bölüm 6, kalan 12.12
+1 foot = 12 inches
+Accordingly, write the code that takes a centimeter length information from the user as an integer and prints it on the screen in feet and inches. Feet and inch representations are made in the form of single quotes and double quotes, respectively, in the American measurement system.
+Example:
+Feet and inch calculation for 195 cm:
+195/30.48 => division 6, remaining 12.12
 12.12 / 2.54 = 4.7716…
-Bu durumda gösterim şu şekilde olur:
-6’ 5’’
-Inch gösteriminde yakın olan tam sayıya yuvarlama yapılır. Yuvarlama metodunu henüz görmedik ama burada bulduğunuz sayıya 0.5 ekleyip int tür dönüşümü yaparsanız istenilen yuvarlamayı yapmış olursunuz.
+In this case, the display would look like this:
+6' 5''
+In the inch notation, round to the nearest whole number. We haven't seen the rounding method yet, but if you add 0.5 to the number you find here and convert it to an int type, you will have the desired rounding.
