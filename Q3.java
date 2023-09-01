@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Soru3 {
+public class Q3 {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     System.out.print("Lutfen cm degerini giriniz: ");
